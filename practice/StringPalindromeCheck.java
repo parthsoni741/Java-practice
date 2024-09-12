@@ -14,28 +14,33 @@ public class StringPalindromeCheck {
 
             }
         }
-        else{*/
+        else{
         String s1="parth";
         String s2 ="";
         for (int i = s1.length() - 1; i >= 0; i--) {
             s2 = s2 + s1.charAt(i);
         }
         System.out.println(s2);
-        System.out.println(s1.equals(s2));
+        System.out.println(s1.equals(s2));*/
 
-        String s3="haahaah";
+        String s3="haahabahaah";
         s3=s3.toLowerCase();
         System.out.println(s3);
+        System.out.println(s3.length());
         
         int i=0, j=s3.length()-1;
         Boolean b=false;
+
         while (i<j){
-            if(s3.charAt(i)!=s3.charAt(j)){
+            if(s3.charAt(i)==s3.charAt(j)){
                 b=true;
                 i++;
                 j--;
             }
-
+            else{
+                b=false;
+                break;
+            }
         }
         System.out.println(b);
     }
