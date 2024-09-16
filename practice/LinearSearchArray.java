@@ -1,5 +1,6 @@
 package practice;
 import java.util.*;
+
 public class LinearSearchArray {
     public static void main(Strings[] args) {
         int a=20;

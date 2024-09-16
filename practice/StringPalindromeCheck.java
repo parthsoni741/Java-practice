@@ -1,6 +1,5 @@
 package practice;
 
-import java.util.Locale;
 
 public class StringPalindromeCheck {
     public static void main(String[] args) {

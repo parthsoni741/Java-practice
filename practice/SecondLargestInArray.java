@@ -28,5 +28,17 @@ public class SecondLargestInArray {
         }
         System.out.println();
         System.out.println("Second max is: "+arr[n-2]);
+
+        int[] arr1={10,29,39,92,11};
+        int max= Integer.MIN_VALUE;
+        int smax=Integer.MIN_VALUE;
+        for (int i = 0; i < arr1.length; i++) {
+            if (arr1[i]>max){
+                max=arr1[i];
+            }
+            else if (arr1[i]>smax) {
+                smax=arr1[i];
+            }
+        }
     }
 }

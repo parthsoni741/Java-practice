@@ -9,6 +9,5 @@ public class StringWordCount {
                 count++;
             }
         }
-        System.out.println(count);
     }
 }
